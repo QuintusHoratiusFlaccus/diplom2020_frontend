@@ -1,0 +1,13 @@
+.holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 0.5vw;
+}
+
+.holder:hover {
+  cursor: pointer;
+  background-color: #2F343A;
+  transition: background-color 0.27s linear;
+}

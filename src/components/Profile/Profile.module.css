@@ -1,0 +1,13 @@
+.holder {
+  
+}
+
+.avatar {
+  border: 1px solid black;
+  background-image: url(./../MainPanel/PanelAccount/icon.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 8em;
+  height: 8em;
+}

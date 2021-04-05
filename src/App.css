@@ -1,0 +1,27 @@
+.wrapper{
+  display: grid;
+
+  grid-template-areas:
+  "head head"
+  "mPanel nav"
+  "mPanel allcontent";
+
+  grid-template-rows: minmax(auto, auto) minmax(auto, auto) 100vh;
+  grid-template-columns: minmax(auto, auto) 1fr;
+}
+
+.head {
+  grid-area: head;
+}
+
+.mainPanel {
+  grid-area: mPanel;
+}
+
+.navigation {
+  grid-area: nav;
+}
+
+.content {
+  grid-area: allcontent;
+}
